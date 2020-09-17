@@ -1,4 +1,4 @@
-FROM node:argon
+FROM node:lts-alpine
 
 RUN npm install -g fast-cli
 
